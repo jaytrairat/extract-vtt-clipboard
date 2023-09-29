@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"os"
 	"strings"
 	"time"
 
@@ -43,6 +44,13 @@ var rootCmd = &cobra.Command{
 	},
 }
 
+func Execute() {
+	if err := rootCmd.Execute(); err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
+}
+
 func main() {
-	rootCmd.Execute()
+	Execute()
 }
