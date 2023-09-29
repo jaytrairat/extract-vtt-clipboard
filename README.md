@@ -13,8 +13,8 @@ extract-vtt-clipboard
 ```
 
 ## ปัญหาคือ Copy paste ไม่ได้
-![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/problem.gif)
+<!-- ![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/problem.gif) -->
 
 
-## extract-vtt-clipboard จะแปลงให้ Copy paste ที่ตารางของ Microsoft word ได้
-![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/solution.gif)
+## การใช้ extract-vtt-clipboard จะแปลงให้ Copy paste ที่ตารางของ Microsoft word ได้
+<!-- ![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/solution.gif) -->
