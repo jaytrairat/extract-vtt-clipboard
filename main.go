@@ -6,6 +6,7 @@ import (
 	"time"
 
 	"github.com/atotto/clipboard"
+	"github.com/spf13/cobra"
 )
 
 func extractKeyAndValue(raw string) string {
@@ -23,7 +24,7 @@ func extractKeyAndValue(raw string) string {
 	return result.String()
 }
 
-func main() {
+func startExtraction() {
 	extractedText, err := clipboard.ReadAll()
 	if err != nil {
 		fmt.Println("Cannot read clipboard.")
@@ -32,4 +33,16 @@ func main() {
 	preparedText := extractKeyAndValue(extractedText)
 	clipboard.WriteAll(preparedText)
 	fmt.Printf("Extracted to clipboard at :: %s\n", time.Now().Format("2006-01-02 15:04:05"))
+}
+
+var rootCmd = &cobra.Command{
+	Use:   "extract-vtt-clipboard",
+	Short: "Extract string from Virustotal",
+	Run: func(cmd *cobra.Command, args []string) {
+		startExtraction()
+	},
+}
+
+func main() {
+	rootCmd.Execute()
 }
