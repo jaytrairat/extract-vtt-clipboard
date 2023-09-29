@@ -12,9 +12,9 @@ go install github.com/jaytrairat/extract-vtt-clipboard@latest
 extract-vtt-clipboard
 ```
 
-## ปัญหาคือ Copy paste ไม่ได้
-<!-- ![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/problem.gif) -->
+## ปัญหาจากการ Copy
+![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/problem.gif)
 
 
-## การใช้ extract-vtt-clipboard จะแปลงให้ Copy paste ที่ตารางของ Microsoft word ได้
-<!-- ![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/solution.gif) -->
+## แก้ปัญหาด้วย extract-vtt-clipboard
+![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/solution.gif)
