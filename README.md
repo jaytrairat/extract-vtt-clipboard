@@ -13,8 +13,8 @@ extract-vtt-clipboard
 ```
 
 ## ปัญหาจากการ Copy
-![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/problem.gif)
+![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/gif1.gif)
 
 
 ## แก้ปัญหาด้วย extract-vtt-clipboard
-![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/solution.gif)
+![Example](https://raw.githubusercontent.com/jaytrairat/extract-vtt-clipboard/main/assets/gif2.gif)
